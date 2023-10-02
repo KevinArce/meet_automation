@@ -1,16 +1,29 @@
-# Automated Google Meet Link Opener
+# Automated Google Meet Link Opener and Joiner
 
-This Python script allows you to automatically open a Google Meet link at a specified time and on specific days of the week using the `schedule` library.
+This Python script allows you to automatically open Google Chrome and join a Google Meet link at a specified time and on specific days of the week using the `schedule` and `pyautogui` libraries.
 
 ## Prerequisites
 
-Before you can run this script, make sure you have set up a virtual environment and installed the `schedule` library. You can do this by following these steps:
+Before you can run this script, make sure you have Google Chrome installed on your system. Additionally, you'll need to install the `schedule` and `pyautogui` libraries using `pip`:
+You can do this by following these steps:
 
 1. Create a virtual environment:
 
+```bash
+python -m virtualenv .
+```
+
 2. Activate the virtual environment (on Windows):
 
-3. Install the `schedule` library:
+```bash
+.\Scripts\activate
+```
+
+3. Install the `schedule` and `pyautogui` library:
+
+```bash
+pip install schedule pyautogui
+```
 
 ## Usage
 
